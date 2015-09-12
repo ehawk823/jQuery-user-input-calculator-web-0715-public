@@ -47,25 +47,3 @@ Calculator.prototype.math = function(){
     $('#result').text(Number(this.num1) / Number(this.num2));
   }
 };
-
-
-
-
-
-
-
-//
-// Calculator.prototype.calculate = function(){
-//     n1 = Number(this.number1);
-//     n2 = Number(this.number2);
-//     debugger
-//   if (this.operation == '+'){
-//     $('#result').text(n1 + n2);
-//   } else if (this.operation == '-'){
-//     $('#result').text(n1 - n2);
-//   } else if (this.operation == '/'){
-//     $('#result').text(n1 / n2);
-//   } else if (this.operation == '*'){
-//     $('#result').text(n1 * n2);
-//   }
-// };
